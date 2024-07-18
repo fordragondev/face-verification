@@ -82,7 +82,9 @@ const FaceVerification = () => {
   };
 
   return (
-    <div>
+    <div className="container">
+      <h2>Face Verification</h2>
+
       <div>
         <input type="file" ref={inputRef} onChange={handleImageUpload} />
         {image && <img src={image} alt="Uploaded Image 1" />}

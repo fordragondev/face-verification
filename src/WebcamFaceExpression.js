@@ -39,7 +39,7 @@ const WebcamFaceExpression = () => {
   };
 
   return (
-    <div>
+    <div className="webcam-container">
       <h2>Webcam Face Expression Recognition</h2>
       {isModelLoaded ? (
         <div>
