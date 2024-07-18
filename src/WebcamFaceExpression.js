@@ -51,8 +51,8 @@ const WebcamFaceExpression = () => {
             height={480}
           />
             <div>
-                <button onClick={capture}>Capture and Recognize Expression</button>
                 {expressions && <p>Expression: {expressions}</p>}
+                <button onClick={capture}>Capture and Recognize Expression</button>                
             </div>
         </div>
 
